@@ -14,8 +14,8 @@ async def on_ready():
     print("Is ready")
 
 reddit = praw.Reddit(client_id='f2XCh_q9gi0__Fy2m1H93w',
-                     client_secret='ycpCstbC-R-rX8pVzNN-Nswc-T4yKQ',
-                     user_agent='Hrisabbot')
+                     client_secret='', #Use yout own secrect
+                     user_agent='Trecnhpdbot')
 
 @client.command()
 async def meme(ctx):
